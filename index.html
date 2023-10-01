@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculatore App</title>
+
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+            background-color: #C0C0C0;
+        }
+
+        .container{
+            background-color: #778899;
+            height: 350px;
+            width: 250px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 20px;
+           padding-left: 10px;
+           padding-right: 10px;
+        }
+
+        .app-title{
+            text-align: center;
+            color: #000;
+        }
+
+        
+            
+        
+
+        .Calculatore-sceen{
+            background-color:  #103410;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 15px;
+            border: none;
+            font-size: 20px;
+            height: 40px;
+            
+          
+        }
+
+        .brand-name{
+            text-align: right;
+            margin-right: 40px;
+            font-weight: bold;
+            color: white;
+        }
+
+        .btn-container{
+           
+            margin-top: 10px;
+            margin-left: 30px;
+            margin-right: 30px;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+
+
+        }
+
+        .btn{
+            font-size: 30px;
+            height: 40px;
+            width: 40px;
+            margin: 5px;
+            border-radius: 10px;
+            border: none;
+        }
+
+        .btn:hover{
+           border-radius: 5px;
+           transition: 0.5s;
+           transform: scale(1.1);
+           box-shadow: 5px 5px 10px 0 rgb(44, 20, 20);
+           cursor: pointer;
+        }
+
+        .btn-special{
+            background-color: #ef0707;
+            font-size: 30px;
+            height: 40px;
+            width: 40px;
+            margin: 5px;
+        }
+        .btn-special:hover{
+            border-radius: 5px;
+           transition: 0.5s;
+           transform: scale(1.1);
+           box-shadow: 5px 5px 10px 0 rgb(44, 20, 20);
+           cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="app-title">Calculatore</h1>
+
+    
+    <div class="container"> 
+        <p class="brand-name"><i>kartik</i></p>
+        <input type="text" class="Calculatore-sceen"/>
+
+        <div class="btn-container">
+            <button class="btn">1</button>
+            <button class="btn">2</button>
+            <button class="btn-special">x</button>
+            <button class="btn">3</button>
+            <button class="btn">4</button>
+            
+           
+
+            <button  class="btn-special">-</button>
+            <button class="btn">5</button>
+            <button class="btn">6</button>
+            <button class="btn-special">=</button>
+            <button class="btn">7</button>
+            <button class="btn">8</button>
+            <button  class="btn-special">/</button>
+            
+            <button class="btn-special">.</button>
+            <button class="btn">00</button>
+            <button class="btn">0</button>
+            
+           
+        </div>
+    </div>
+    
+    
+        
+   
+</body>
+</html>
